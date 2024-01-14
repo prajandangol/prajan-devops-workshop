@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Docker Push') {
       steps {
-          sh "docker login -u prajandangol -p '%41ry&i*bs#5P7NU12'"
+          sh "docker login -u prajandangol -p 'Prajan@456#'"
           sh 'docker push prajandangol/workshop:latest'
         }
       }
